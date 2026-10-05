@@ -1,0 +1,6 @@
+{
+  "name": "100 Miles Kaffi & Bakes",
+  "description": "Contemporary café and bakery in Firozpur, Punjab. Specialty coffee, artisan croissants, celebration cakes, and warm neighbourhood hospitality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
