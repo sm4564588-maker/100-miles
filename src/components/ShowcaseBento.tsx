@@ -38,7 +38,7 @@ export const ShowcaseBento: React.FC<ShowcaseBentoProps> = ({ onSelectItem, item
           >
             <div className="relative aspect-[16/10] overflow-hidden bg-[#2D1E17]">
               <img
-                src="/src/assets/images/croissant_egg_sandwich_1791209732179.jpg"
+                src={croissantItem.image}
                 alt="Scrambled Egg & Herb Croissant with cozy fireplace glow"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
@@ -78,7 +78,7 @@ export const ShowcaseBento: React.FC<ShowcaseBentoProps> = ({ onSelectItem, item
           >
             <div className="relative aspect-[4/3] overflow-hidden bg-[#2D1E17]">
               <img
-                src="/src/assets/images/artisan_latte_glass_1791209721747.jpg"
+                src={cortadoItem.image}
                 alt="Artisan Cortado in Glass with Heart Latte Art on Wooden Tray"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
@@ -118,7 +118,7 @@ export const ShowcaseBento: React.FC<ShowcaseBentoProps> = ({ onSelectItem, item
           >
             <div className="relative aspect-[16/10] overflow-hidden bg-[#2D1E17]">
               <img
-                src="/src/assets/images/chocolate_praline_dessert_1791209745465.jpg"
+                src={dessertTubItem.image}
                 alt="Layered Chocolate & Hazelnut Praline Dessert Tub"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
@@ -158,7 +158,7 @@ export const ShowcaseBento: React.FC<ShowcaseBentoProps> = ({ onSelectItem, item
           >
             <div className="relative aspect-[16/10] overflow-hidden bg-[#2D1E17]">
               <img
-                src="/src/assets/images/celebration_artisan_cake_1791209757612.jpg"
+                src={celebrationCakeItem.image}
                 alt="Belgian Truffle Ganache Celebration Cake"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"

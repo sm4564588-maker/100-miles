@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, MapPin, Phone, Star, Navigation, Sparkles, Coffee } from 'lucide-react';
 import { CAFE_INFO } from '../data/menuData';
+import heroImg from '../assets/images/hero_cafe_storefront_1791209711385.jpg';
 
 interface HeroProps {
   onExploreMenu: () => void;
@@ -18,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Background ambient gradient and storefront photography */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_cafe_storefront_1791209711385.jpg"
+          src={heroImg}
           alt="100 Miles Kaffi & Bakes Storefront in Firozpur"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center opacity-30 transform scale-105 transition-transform duration-1000 ease-out"
